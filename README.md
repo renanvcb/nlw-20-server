@@ -24,8 +24,8 @@ Projeto **NLW Agents** desenvolvido durante um evento da [Rocketseat](https://ro
 1. **Clone o repositório:**
 
 ```sh
-git clone https://github.com/seu-usuario/nlw-agents.git
-cd nlw-agents/server
+git clone https://github.com/renanvcb/nlw-20-server.git
+cd nlw-20-server
 ```
 
 2. **Instale as dependências:**
