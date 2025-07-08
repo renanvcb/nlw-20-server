@@ -21,13 +21,20 @@ Projeto **NLW Agents** desenvolvido durante um evento da [Rocketseat](https://ro
 
 ## Setup e Configuração
 
-1. **Instale as dependências:**
+1. **Clone o repositório:**
+
+```sh
+git clone https://github.com/seu-usuario/nlw-agents.git
+cd nlw-agents/server
+```
+
+2. **Instale as dependências:**
 
    ```sh
    npm install
    ```
 
-2. **Configure o banco de dados:**
+3. **Configure o banco de dados:**
 
    - Copie `.env.example` para `.env` e ajuste as variáveis.
    - Suba o banco com Docker:
@@ -35,13 +42,17 @@ Projeto **NLW Agents** desenvolvido durante um evento da [Rocketseat](https://ro
      docker-compose up -d
      ```
 
-3. **Rode as migrations e seed:**
+4. **Rode as migrations e seed:**
+
+   ```sh
+   npx drizzle-kit migrate
+   ```
 
    ```sh
    npm run db:seed
    ```
 
-4. **Inicie o servidor em modo desenvolvimento:**
+5. **Inicie o servidor em modo desenvolvimento:**
    ```sh
    npm run dev
    ```
